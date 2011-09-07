@@ -1,2 +1,6 @@
-{ "name" : "notetaker.js",
-  "main" : "plain.js" }
+{
+    "name": "notetaker.js",
+    "main": "plain.js""dependencies": {
+        "express": "latest"
+    }
+}
