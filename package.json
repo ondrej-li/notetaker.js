@@ -1,5 +1,6 @@
 {
     "name": "notetaker.js",
+    "version": "0.0.1",
     "main": "plain.js",
     "dependencies": {
         "express": "2.4.6"
