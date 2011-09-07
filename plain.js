@@ -1,8 +1,5 @@
-// var portNo = process.env.C9_PORT ? process.env.C9_PORT : 80;
-// var address = process.env.C9_PORT ? "0.0.0.0" : "127.0.0.1";
-
-var portNo = 80;
-var address = "127.0.0.1";
+var portNo = process.env.C9_PORT ? process.env.C9_PORT : process.env.PORT ? process.env.PORT : 80;
+var address = process.env.C9_PORT || process.env.PORT ? "0.0.0.0" : "127.0.0.1";
 
 var http = require('http');
 http.createServer(function (req, res) {
